@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+  --primary-color: #fff;
+  --secondary-color: #bd0303;
+}
+:root {
+
+
+  /* font */
+  --title-ts: 0px 0px 150px rgba(70, 183, 219, 0.5),
+      0px 0px 100px rgba(70, 183, 219, 0.5),
+      0px 0px 30px rgba(70, 183, 219, 0.5),
+      0px 0px 20px rgba(70, 183, 219, 0.5),
+      0px 0px 10px rgba(70, 183, 219, 0.5),
+      0px 0px 3px rgba(70, 183, 219, 0.5);
+
+  --header1-size: 24px;
+  --header1-lh: 25px;
+
+  --header2-size: 18px;
+  --header2-lh: 22px;
+
+  --header-size: 16px;
+  --body-size: 12px;
+  --body-lh: 15px;
+
+  /* colors */
+  --blur-bg: rgba(14, 19, 26, 0.5);
+  
+
+  --text1: #f0f0f8;
+  --text2: #8b98a5;
+  --text3: #61646f;
+
+  --dark1: #0d1117;
+  --dark2: #171d27;
+  --dark3: #242f3f;
+  --dark4: #141922;
+
+  --accent1: #7371fc;
+  --accent2: #e480ff;
+  --accent3: #5ffff2;
+  --accent4: #71b5fc;
+  --accent5: #cdc1ff;
+
+  --positive: #15be6f;
+  --negative: #f6385b;
+
+  --other-green: #41d18e;
+  --other-red: #e75670;
+
+  /* border */
+  --border: var(--dark2);
+  --border-radius: 4px;
+  --swap-border: var(--title-gradient);
+  --grey-light-border: 1px solid var(--text2);
+  --navbar-border: transparent;
+  --dark-border: 0.2px solid #010101;
+
+  /* animations */
+  --animation-speed: 300ms;
+
+  /* sizes */
+  --footer-height: 24px;
+
+  /* gradients, shadows */
+  --shimmer: linear-gradient(to right, #141e30, #243b55);
+}
+body {
+  background-color: #1f2937;
+  color: #fff;
+}
+body{
+  height: 100vh;
+  overflow: hidden;
+}
